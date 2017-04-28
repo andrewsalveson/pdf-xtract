@@ -1,0 +1,12 @@
+{
+    "name": "salvesona/pdf-xtract",
+    "require": {
+		"php-xpdf/php-xpdf": "0.1.1",
+		"alchemy/binary-driver":"1.3.0"
+	},
+	"autoload": {
+      "psr-4": {
+        "Sal\\": "lib/"
+      }
+    }
+}
